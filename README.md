@@ -1,9 +1,8 @@
-istepanov/mongodump
-===================
+# docker-mongodump
 
 Docker image with `mongodump`, `cron` and AWS CLI to upload backups to AWS S3.
 
-### Environment variables
+## Environment variables
 
 | Env var               | Description | Default                 |
 |-----------------------|-------------|-------------------------|
@@ -14,7 +13,7 @@ Docker image with `mongodump`, `cron` and AWS CLI to upload backups to AWS S3.
 | `AWS_ACCESS_KEY_ID`     | AWS Access Key ID. Leave empty if you want to use AWS IAM Role instead. | `''` |
 | `AWS_SECRET_ACCESS_KEY` | AWS Access Key ID. Leave empty if you want to use AWS IAM Role instead. | `''` |
 
-### Examples
+## Examples
 
 Run container with cron job (once a day at 1am), save backup to `/path/to/target/folder`, upload backups to AWS S3 folder:
 
