@@ -1,5 +1,9 @@
 # docker-mongodump
 
+---
+# Moved to https://github.com/Aocro/docker-build/tree/main/mongodump-s3
+---
+
 Docker image with `mongodump`, `cron` and AWS CLI to upload backups to AWS S3.
 
 ## Environment variables
